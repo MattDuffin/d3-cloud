@@ -1,7 +1,7 @@
 // Word cloud layout by Jason Davies, https://www.jasondavies.com/wordcloud/
 // Algorithm due to Jonathan Feinberg, http://static.mrfeinberg.com/bv_ch03.pdf
 
-var dispatch = require("d3-dispatch").dispatch;
+var dispatch = d3.dispatch;
 
 var cloudRadians = Math.PI / 180,
     cw = 1 << 11 >> 5,
